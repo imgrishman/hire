@@ -1,1 +1,60 @@
-#styles 
+body {
+    background-color: #141414;
+    color: #ffffff;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.section {
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+}
+
+a {
+    color: #e50914;
+}
+
+.skill-tags .skill-tag {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.skill-category {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Carousel Styles */
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-pagination-bullet {
+    background-color: #e50914 !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #ffffff !important;
+}
